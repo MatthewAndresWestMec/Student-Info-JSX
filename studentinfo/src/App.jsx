@@ -1,11 +1,14 @@
-import logo from './logo.svg';
+import College from './components/College'
 import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    
+    <>
+    <header>
+      <link rel="stylesheet" href="App.css"></link>
+    </header>
+      <College/>
+    </>
   );
 }
 

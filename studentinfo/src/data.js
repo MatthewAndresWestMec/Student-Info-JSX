@@ -1,4 +1,4 @@
-const College = [
+export const CollegeData = [
     { id: 1, name: 'Gael Schuh', course: 'English Composition', age: 22 },
     { id: 2, name: 'Brynne Bance', course: 'World History', age: 26 },
     { id: 3, name: 'Opaline Benzing', course: 'Introduction to Sociology', age: 27 },
@@ -20,4 +20,3 @@ const College = [
     { id: 19, name: 'Ignace Emmert', course: 'Chemistry 101', age: 18 },
     { id: 20, name: 'Tony Boobyer', course: 'English Composition', age: 19 }
   ];
-    

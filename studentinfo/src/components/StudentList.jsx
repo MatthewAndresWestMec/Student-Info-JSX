@@ -1,6 +1,4 @@
-import {useState} from 'react'
-import {student} from '../College'
-
+import Singlestudent from './Student';
 const StudentList = ({ student, removeStudent }) => {
     return (
       <>
@@ -9,10 +7,12 @@ const StudentList = ({ student, removeStudent }) => {
             <Singlestudent
               key={student.id}
               {...student}
-              removestudent={removeStudent} 
+              removeStudent={removeStudent} 
             />
           )
         })}
       </>
     )
 }
+
+export default StudentList;
